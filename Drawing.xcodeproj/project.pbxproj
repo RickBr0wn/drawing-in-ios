@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1102DBFE261E041A000D0EB2 /* AnimatablePairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102DBFD261E041A000D0EB2 /* AnimatablePairView.swift */; };
+		1102DC06261E0759000D0EB2 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102DC05261E0759000D0EB2 /* SpirographView.swift */; };
 		111C3461261CCB33008EFF38 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C3460261CCB33008EFF38 /* DrawingApp.swift */; };
 		111C3463261CCB33008EFF38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C3462261CCB33008EFF38 /* ContentView.swift */; };
 		111C3465261CCB36008EFF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111C3464261CCB36008EFF38 /* Assets.xcassets */; };
 		111C3468261CCB36008EFF38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111C3467261CCB36008EFF38 /* Preview Assets.xcassets */; };
 		111C3473261CCB36008EFF38 /* DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C3472261CCB36008EFF38 /* DrawingTests.swift */; };
 		111C347E261CCB36008EFF38 /* DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C347D261CCB36008EFF38 /* DrawingUITests.swift */; };
+		111C3490261CD4B7008EFF38 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C348F261CD4B7008EFF38 /* Triangle.swift */; };
+		111C349B261CD4D2008EFF38 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C349A261CD4D2008EFF38 /* Arc.swift */; };
+		111C34A1261CD500008EFF38 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34A0261CD500008EFF38 /* ShapeView.swift */; };
+		111C34A9261CD55E008EFF38 /* InsettableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34A8261CD55E008EFF38 /* InsettableView.swift */; };
+		111C34AE261CD8F9008EFF38 /* TranformingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34AD261CD8F9008EFF38 /* TranformingShapeView.swift */; };
+		111C34B3261CE1C3008EFF38 /* CreativeBordersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34B2261CE1C3008EFF38 /* CreativeBordersView.swift */; };
+		111C34B8261D03E2008EFF38 /* ComplexMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34B7261D03E2008EFF38 /* ComplexMetal.swift */; };
+		111C34BD261D08AB008EFF38 /* ColorMultiplyEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34BC261D08AB008EFF38 /* ColorMultiplyEffectView.swift */; };
+		111C34C5261D0B43008EFF38 /* ThreeCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34C4261D0B43008EFF38 /* ThreeCirclesView.swift */; };
+		111C34CA261D0DA0008EFF38 /* SaturationAndBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34C9261D0DA0008EFF38 /* SaturationAndBlur.swift */; };
+		111C34CF261D0F10008EFF38 /* AnimatableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C34CE261D0F10008EFF38 /* AnimatableDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1102DBFD261E041A000D0EB2 /* AnimatablePairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairView.swift; sourceTree = "<group>"; };
+		1102DC05261E0759000D0EB2 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		111C345D261CCB33008EFF38 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111C3460261CCB33008EFF38 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		111C3462261CCB33008EFF38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,17 @@
 		111C3479261CCB36008EFF38 /* DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		111C347D261CCB36008EFF38 /* DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingUITests.swift; sourceTree = "<group>"; };
 		111C347F261CCB36008EFF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111C348F261CD4B7008EFF38 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		111C349A261CD4D2008EFF38 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		111C34A0261CD500008EFF38 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		111C34A8261CD55E008EFF38 /* InsettableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableView.swift; sourceTree = "<group>"; };
+		111C34AD261CD8F9008EFF38 /* TranformingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranformingShapeView.swift; sourceTree = "<group>"; };
+		111C34B2261CE1C3008EFF38 /* CreativeBordersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativeBordersView.swift; sourceTree = "<group>"; };
+		111C34B7261D03E2008EFF38 /* ComplexMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexMetal.swift; sourceTree = "<group>"; };
+		111C34BC261D08AB008EFF38 /* ColorMultiplyEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMultiplyEffectView.swift; sourceTree = "<group>"; };
+		111C34C4261D0B43008EFF38 /* ThreeCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeCirclesView.swift; sourceTree = "<group>"; };
+		111C34C9261D0DA0008EFF38 /* SaturationAndBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationAndBlur.swift; sourceTree = "<group>"; };
+		111C34CE261D0F10008EFF38 /* AnimatableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +121,8 @@
 		111C345F261CCB33008EFF38 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				111C349F261CD4E2008EFF38 /* Views */,
+				111C348E261CD499008EFF38 /* Shapes */,
 				111C3460261CCB33008EFF38 /* DrawingApp.swift */,
 				111C3462261CCB33008EFF38 /* ContentView.swift */,
 				111C3464261CCB36008EFF38 /* Assets.xcassets */,
@@ -128,6 +156,33 @@
 				111C347F261CCB36008EFF38 /* Info.plist */,
 			);
 			path = DrawingUITests;
+			sourceTree = "<group>";
+		};
+		111C348E261CD499008EFF38 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				111C348F261CD4B7008EFF38 /* Triangle.swift */,
+				111C349A261CD4D2008EFF38 /* Arc.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		111C349F261CD4E2008EFF38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				111C34A0261CD500008EFF38 /* ShapeView.swift */,
+				111C34A8261CD55E008EFF38 /* InsettableView.swift */,
+				111C34AD261CD8F9008EFF38 /* TranformingShapeView.swift */,
+				111C34B2261CE1C3008EFF38 /* CreativeBordersView.swift */,
+				111C34B7261D03E2008EFF38 /* ComplexMetal.swift */,
+				111C34BC261D08AB008EFF38 /* ColorMultiplyEffectView.swift */,
+				111C34C4261D0B43008EFF38 /* ThreeCirclesView.swift */,
+				111C34C9261D0DA0008EFF38 /* SaturationAndBlur.swift */,
+				111C34CE261D0F10008EFF38 /* AnimatableDataView.swift */,
+				1102DBFD261E041A000D0EB2 /* AnimatablePairView.swift */,
+				1102DC05261E0759000D0EB2 /* SpirographView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +314,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111C34A1261CD500008EFF38 /* ShapeView.swift in Sources */,
+				1102DC06261E0759000D0EB2 /* SpirographView.swift in Sources */,
+				1102DBFE261E041A000D0EB2 /* AnimatablePairView.swift in Sources */,
+				111C3490261CD4B7008EFF38 /* Triangle.swift in Sources */,
 				111C3463261CCB33008EFF38 /* ContentView.swift in Sources */,
+				111C34B8261D03E2008EFF38 /* ComplexMetal.swift in Sources */,
+				111C34CF261D0F10008EFF38 /* AnimatableDataView.swift in Sources */,
+				111C34CA261D0DA0008EFF38 /* SaturationAndBlur.swift in Sources */,
+				111C34B3261CE1C3008EFF38 /* CreativeBordersView.swift in Sources */,
+				111C349B261CD4D2008EFF38 /* Arc.swift in Sources */,
+				111C34AE261CD8F9008EFF38 /* TranformingShapeView.swift in Sources */,
+				111C34C5261D0B43008EFF38 /* ThreeCirclesView.swift in Sources */,
 				111C3461261CCB33008EFF38 /* DrawingApp.swift in Sources */,
+				111C34A9261CD55E008EFF38 /* InsettableView.swift in Sources */,
+				111C34BD261D08AB008EFF38 /* ColorMultiplyEffectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
